@@ -175,6 +175,7 @@ if __name__ == '__main__':
     assert value3['my']["name"] == 'fangzhipeng1'
 
 a=1
+b=2
 #http://nodeca.github.io/js-yaml
 # a=os.environ.get()
 # def get_config():
