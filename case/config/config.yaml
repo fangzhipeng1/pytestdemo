@@ -1,0 +1,31 @@
+my:
+  name: fangzhipeng
+  age: !!str 18
+  score: !!float 60.4
+  male: ture
+  book: null
+  brithday: 2020-03-05 11:11:11
+  interest:
+    baskball
+    football
+  friend:
+    - name: xiaoming
+      age: 19
+    - name: xiaodong
+      age: 19
+comment:
+  asdasdas
+  asdasdasd
+  asdasdasd
+comment1: >
+  asdasda
+  asdasd
+  asdasd
+comment2: |
+  asdasdas
+  asdasdasd
+  asdasd
+father: &father_foo
+  age: 19
+  name: foo
+child: *father_foo
